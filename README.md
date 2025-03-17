@@ -5,6 +5,11 @@ You'll need to provide a config.json file with the following values:
 - TELEGRAM_BOT_TOKEN: The bot token from Telegram
 - TELEGRAM_CHAT_ID: The chat ID from Telegram
 
+Install the required dependencies:
+```
+pip install -r requirements.txt
+```
+
 To run the bot, use the following command:
 ```
 python main.py
