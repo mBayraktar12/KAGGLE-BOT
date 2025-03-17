@@ -1,4 +1,5 @@
-Telegram bot that monitors a Kaggle competition and sends notifications when a new best scoring public kernel is published.
+Telegram bot that monitors a Kaggle competition and sends notifications when a new best scoring public kernel is published. Since the score is not available in the kernel object, the bot will try to extract it from the title if provided.
+
 You'll need to provide a config.json file with the following values:
 - COMPETITION: The name of the competition to monitor
 - TELEGRAM_BOT_TOKEN: The bot token from Telegram
